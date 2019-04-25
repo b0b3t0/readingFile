@@ -20,12 +20,4 @@ public class ExceptionsClasses {
             System.out.println("The file \"" + fileName + "\" is not found!");
         }
     }
-
-    public static void main(String[] args) {
-        try {
-            readFile("F:\\JavaProjects\\Training\\src\\VuvedenieVProgramiraneto\\asd.txt");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }
