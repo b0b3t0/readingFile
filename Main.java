@@ -4,8 +4,8 @@ import java.io.IOException;
 import static VuvedenieVProgramiraneto.ExceptionsClasses.readFile;
 
 public class Main {
-    
-    private final static String FILE_PATH = "F:\\JavaProjects\\Training\\src\\VuvedenieVProgramiraneto\\asd.txt";
+    //We give the static FILE_PATH variable the path of the file that we wont to read
+    private final static String FILE_PATH = "file_path"; 
     
     public static void main(String[] args) {
         
